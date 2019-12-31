@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Sanity">
-              <span class="suite-name border-passed">Sanity</span>
+              <span class="suite-name border-skipped">Sanity</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,46 +91,46 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods,  6 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Sanity" class="hide-methods passed suite-Sanity"> (hide)</a> <!-- hide-methods passed suite-Sanity -->
-                      <a href="#" panel-name="suite-Sanity" class="show-methods passed suite-Sanity"> (show)</a> <!-- show-methods passed suite-Sanity -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Sanity" class="hide-methods skipped suite-Sanity"> (hide)</a> <!-- hide-methods skipped suite-Sanity -->
+                      <a href="#" panel-name="suite-Sanity" class="show-methods skipped suite-Sanity"> (show)</a> <!-- show-methods skipped suite-Sanity -->
                     </span>
-                    <div class="method-list-content passed suite-Sanity">
+                    <div class="method-list-content skipped suite-Sanity">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="main_running_script_streams_ucc.StreamsUCC_Main_Script" hash-for-method="CallmonitoringForm">CallmonitoringForm</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="main_running_script_streams_ucc.StreamsUCC_Main_Script" hash-for-method="Loggedin_Logout_Agentes">Loggedin_Logout_Agentes</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="main_running_script_streams_ucc.StreamsUCC_Main_Script" hash-for-method="ULM_Hide_Filters">ULM_Hide_Filters</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="main_running_script_streams_ucc.StreamsUCC_Main_Script" hash-for-method="ULM_Queues">ULM_Queues</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="main_running_script_streams_ucc.StreamsUCC_Main_Script" hash-for-method="ULM_Show_Filters">ULM_Show_Filters</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="main_running_script_streams_ucc.StreamsUCC_Main_Script" hash-for-method="ULmLogin">ULmLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Sanity -->
+                    </div> <!-- method-list-content skipped suite-Sanity -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -142,9 +142,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Sanity" class="panel Sanity">
-          <div class="suite-Sanity-class-passed">
+          <div class="suite-Sanity-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">main_running_script_streams_ucc.StreamsUCC_Main_Script</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -153,6 +153,10 @@
                   <a name="CallmonitoringForm">
                   </a> <!-- CallmonitoringForm -->
                   <span class="method-name">CallmonitoringForm</span>
+                  <div class="stack-trace">java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -160,6 +164,10 @@
                   <a name="Loggedin_Logout_Agentes">
                   </a> <!-- Loggedin_Logout_Agentes -->
                   <span class="method-name">Loggedin_Logout_Agentes</span>
+                  <div class="stack-trace">java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -167,6 +175,10 @@
                   <a name="ULM_Hide_Filters">
                   </a> <!-- ULM_Hide_Filters -->
                   <span class="method-name">ULM_Hide_Filters</span>
+                  <div class="stack-trace">java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -174,6 +186,10 @@
                   <a name="ULM_Queues">
                   </a> <!-- ULM_Queues -->
                   <span class="method-name">ULM_Queues</span>
+                  <div class="stack-trace">java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -181,6 +197,10 @@
                   <a name="ULM_Show_Filters">
                   </a> <!-- ULM_Show_Filters -->
                   <span class="method-name">ULM_Show_Filters</span>
+                  <div class="stack-trace">java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -188,10 +208,14 @@
                   <a name="ULmLogin">
                   </a> <!-- ULmLogin -->
                   <span class="method-name">ULmLogin</span>
+                  <div class="stack-trace">java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Sanity-class-passed -->
+          </div> <!-- suite-Sanity-class-skipped -->
         </div> <!-- panel Sanity -->
         <div panel-name="test-xml-Sanity" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -261,34 +285,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Loggedin_Logout_Agentes')
+data.setCell(0, 1, 'ULM_Queues')
 data.setCell(0, 2, 'main_running_script_streams_ucc.StreamsUCC_Main_Script')
-data.setCell(0, 3, 100620);
+data.setCell(0, 3, 4);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ULM_Hide_Filters')
+data.setCell(1, 1, 'CallmonitoringForm')
 data.setCell(1, 2, 'main_running_script_streams_ucc.StreamsUCC_Main_Script')
-data.setCell(1, 3, 58125);
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ULM_Show_Filters')
+data.setCell(2, 1, 'Loggedin_Logout_Agentes')
 data.setCell(2, 2, 'main_running_script_streams_ucc.StreamsUCC_Main_Script')
-data.setCell(2, 3, 53993);
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ULM_Queues')
+data.setCell(3, 1, 'ULM_Hide_Filters')
 data.setCell(3, 2, 'main_running_script_streams_ucc.StreamsUCC_Main_Script')
-data.setCell(3, 3, 53549);
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'CallmonitoringForm')
+data.setCell(4, 1, 'ULM_Show_Filters')
 data.setCell(4, 2, 'main_running_script_streams_ucc.StreamsUCC_Main_Script')
-data.setCell(4, 3, 53080);
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'ULmLogin')
 data.setCell(5, 2, 'main_running_script_streams_ucc.StreamsUCC_Main_Script')
-data.setCell(5, 3, 36789);
+data.setCell(5, 3, 0);
 window.suiteTableData['Sanity']= { tableData: data, tableDiv: 'times-div-Sanity'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <span class="suite-total-time">Total running time: 4 ms</span>
               <div id="times-div-Sanity">
               </div> <!-- times-div-Sanity -->
             </div> <!-- times-div -->
@@ -349,61 +373,11 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">main_running_script_streams_ucc.StreamsUCC_Main_Script</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">beforeSuite(beta, GC)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="test-method">
-                <span class="method-name">ULmLogin</span>
-                <span class="method-start">15185 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">Endtestcase([TestResult name=ULmLogin status=SUCCESS method=StreamsUCC_Main_Script.ULmLogin()[pri:1, instance:ma...)</span>
-                <span class="method-start">51977 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">ULM_Queues</span>
-                <span class="method-start">51984 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">Endtestcase([TestResult name=ULM_Queues status=SUCCESS method=StreamsUCC_Main_Script.ULM_Queues()[pri:2, instanc...)</span>
-                <span class="method-start">105536 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">ULM_Hide_Filters</span>
-                <span class="method-start">105538 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">Endtestcase([TestResult name=ULM_Hide_Filters status=SUCCESS method=StreamsUCC_Main_Script.ULM_Hide_Filters()[pr...)</span>
-                <span class="method-start">163665 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">ULM_Show_Filters</span>
-                <span class="method-start">163669 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">Endtestcase([TestResult name=ULM_Show_Filters status=SUCCESS method=StreamsUCC_Main_Script.ULM_Show_Filters()[pr...)</span>
-                <span class="method-start">217664 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">CallmonitoringForm</span>
-                <span class="method-start">217669 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">Endtestcase([TestResult name=CallmonitoringForm status=SUCCESS method=StreamsUCC_Main_Script.CallmonitoringForm(...)</span>
-                <span class="method-start">270751 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">Loggedin_Logout_Agentes</span>
-                <span class="method-start">270758 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">Endtestcase([TestResult name=Loggedin_Logout_Agentes status=SUCCESS method=StreamsUCC_Main_Script.Loggedin_Logou...)</span>
-                <span class="method-start">371380 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-suite after">
-                <span class="method-name">kil</span>
-                <span class="method-start">372236 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

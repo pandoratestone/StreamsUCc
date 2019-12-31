@@ -302,12 +302,13 @@ public class StreamsUCC_Main_Script extends MyTest_Listner {
 		        {
 		          
 		          System.setProperty("webdriver.chrome.driver",Constants.Chromedriverpath);
-		          ChromeOptions options = new ChromeOptions();
-				  options.addArguments("user-data-dir=C:/Users/QA/AppData/Local/Google/Chrome/User Data/person 10");
-		          options.addArguments("disable-infobars");	
-				  options.addArguments("--start-maximized");
+//		          ChromeOptions options = new ChromeOptions();
+//				  options.addArguments("user-data-dir=C:/Users/QA/AppData/Local/Google/Chrome/User Data/person 10");
+//		          options.addArguments("disable-infobars");	
+//				  options.addArguments("--start-maximized");
 //				  options.addArguments("--start-fullscreen");
-			     driver=new ChromeDriver(options);
+			     driver=new ChromeDriver();
+			     driver.manage().window().maximize();
 		        }
 		        else if(browser.equalsIgnoreCase("ff"))
 		        {

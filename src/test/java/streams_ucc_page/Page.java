@@ -1,29 +1,19 @@
 package streams_ucc_page;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.bcel.classfile.Constant;
-import org.apache.poi.ss.formula.functions.Index;
-import org.junit.rules.ExpectedException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.remote.SessionId;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
-import com.gargoylesoftware.htmlunit.javascript.host.InstallTrigger;
-
-import net.bytebuddy.description.annotation.AnnotationList.Empty;
-import net.sourceforge.htmlunit.corejs.javascript.ast.SwitchCase;
 import output_results.Logs;
 import streams_ucc_OR.OR;
 import streams_ucc_UDF.UDF_All_Methods;
@@ -61,7 +51,7 @@ public class Page extends OR{
 		  public void CommonWaitofElement(WebElement Element,int time,int waittype)
 		  {
 //			  Logs.info("[CommonWaitofElement] Started.. Element :"+Element+".time is :"+time+" and Waittype :"+waittype);
-			  WebDriverWait wait=new WebDriverWait(driver, time);
+			  WebDriverWait wait=new WebDriverWait(driver,15);
 			  if (waittype==0) 
 			  {
 				wait.until(ExpectedConditions.visibilityOf(Element));
@@ -1822,7 +1812,7 @@ public class Page extends OR{
 		
 		String strRadioButtonchecked="createTeam_Icons radio_checked";
 		String strRadioButtonUNchecked="createTeam_Icons radio_unchecked";
-		WebDriverWait setPhone=new WebDriverWait(driver, 10);
+		WebDriverWait setPhone=new WebDriverWait(driver, 15);
 		setPhone.until(ExpectedConditions.visibilityOf(CallMonitoringForm_MoreOption_Button));
 		Actions actPhone=new Actions(driver);
 		actPhone.moveToElement(CallMonitoringForm_MoreOption_Button).perform();

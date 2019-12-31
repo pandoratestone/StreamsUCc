@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="14" total="20" passed="6">
+<testng-results skipped="6" failed="0" ignored="14" total="20" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Sanity" duration-ms="357002" started-at="2019-09-23T19:28:46Z" finished-at="2019-09-23T19:34:43Z">
+  <suite name="Sanity" duration-ms="886" started-at="2019-12-31T06:36:57Z" finished-at="2019-12-31T06:36:58Z">
     <groups>
     </groups>
-    <test name="Stresams UCC" duration-ms="357002" started-at="2019-09-23T19:28:46Z" finished-at="2019-09-23T19:34:43Z">
+    <test name="Stresams UCC" duration-ms="886" started-at="2019-12-31T06:36:57Z" finished-at="2019-12-31T06:36:58Z">
       <class name="main_running_script_streams_ucc.StreamsUCC_Main_Script">
-        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="beforeSuite" is-config="true" duration-ms="14381" started-at="2019-09-24T00:58:31Z" finished-at="2019-09-24T00:58:46Z">
+        <test-method status="FAIL" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@3fd7a715]" name="beforeSuite" is-config="true" duration-ms="53" started-at="2019-12-31T12:06:57Z" finished-at="2019-12-31T12:06:57Z">
           <params>
             <param index="0">
               <value>
@@ -20,100 +20,237 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="ULmLogin()[pri:1, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="ULmLogin" duration-ms="36789" started-at="2019-09-24T00:58:47Z" finished-at="2019-09-24T00:59:23Z">
+        <test-method status="SKIP" signature="ULmLogin()[pri:1, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@3fd7a715]" name="ULmLogin" duration-ms="0" started-at="2019-12-31T12:06:58Z" finished-at="2019-12-31T12:06:58Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ULmLogin -->
-        <test-method status="PASS" signature="Endtestcase(org.testng.ITestResult)[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="Endtestcase" is-config="true" duration-ms="4" started-at="2019-09-24T00:59:23Z" finished-at="2019-09-24T00:59:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ULmLogin status=SUCCESS method=StreamsUCC_Main_Script.ULmLogin()[pri:1, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Endtestcase -->
-        <test-method status="PASS" signature="ULM_Queues()[pri:2, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="ULM_Queues" duration-ms="53549" started-at="2019-09-24T00:59:23Z" finished-at="2019-09-24T01:00:17Z">
+        <test-method status="SKIP" signature="ULM_Queues()[pri:2, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@3fd7a715]" name="ULM_Queues" duration-ms="4" started-at="2019-12-31T12:06:58Z" finished-at="2019-12-31T12:06:58Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ULM_Queues -->
-        <test-method status="PASS" signature="Endtestcase(org.testng.ITestResult)[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="Endtestcase" is-config="true" duration-ms="2" started-at="2019-09-24T01:00:17Z" finished-at="2019-09-24T01:00:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ULM_Queues status=SUCCESS method=StreamsUCC_Main_Script.ULM_Queues()[pri:2, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Endtestcase -->
-        <test-method status="PASS" signature="ULM_Hide_Filters()[pri:3, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="ULM_Hide_Filters" duration-ms="58125" started-at="2019-09-24T01:00:17Z" finished-at="2019-09-24T01:01:15Z">
+        <test-method status="SKIP" signature="ULM_Hide_Filters()[pri:3, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@3fd7a715]" name="ULM_Hide_Filters" duration-ms="0" started-at="2019-12-31T12:06:58Z" finished-at="2019-12-31T12:06:58Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ULM_Hide_Filters -->
-        <test-method status="PASS" signature="Endtestcase(org.testng.ITestResult)[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="Endtestcase" is-config="true" duration-ms="3" started-at="2019-09-24T01:01:15Z" finished-at="2019-09-24T01:01:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ULM_Hide_Filters status=SUCCESS method=StreamsUCC_Main_Script.ULM_Hide_Filters()[pri:3, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Endtestcase -->
-        <test-method status="PASS" signature="ULM_Show_Filters()[pri:4, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="ULM_Show_Filters" duration-ms="53993" started-at="2019-09-24T01:01:15Z" finished-at="2019-09-24T01:02:09Z">
+        <test-method status="SKIP" signature="ULM_Show_Filters()[pri:4, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@3fd7a715]" name="ULM_Show_Filters" duration-ms="0" started-at="2019-12-31T12:06:58Z" finished-at="2019-12-31T12:06:58Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ULM_Show_Filters -->
-        <test-method status="PASS" signature="Endtestcase(org.testng.ITestResult)[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="Endtestcase" is-config="true" duration-ms="4" started-at="2019-09-24T01:02:09Z" finished-at="2019-09-24T01:02:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ULM_Show_Filters status=SUCCESS method=StreamsUCC_Main_Script.ULM_Show_Filters()[pri:4, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Endtestcase -->
-        <test-method status="PASS" signature="CallmonitoringForm()[pri:5, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="CallmonitoringForm" duration-ms="53080" started-at="2019-09-24T01:02:09Z" finished-at="2019-09-24T01:03:02Z">
+        <test-method status="SKIP" signature="CallmonitoringForm()[pri:5, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@3fd7a715]" name="CallmonitoringForm" duration-ms="0" started-at="2019-12-31T12:06:58Z" finished-at="2019-12-31T12:06:58Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CallmonitoringForm -->
-        <test-method status="PASS" signature="Endtestcase(org.testng.ITestResult)[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="Endtestcase" is-config="true" duration-ms="6" started-at="2019-09-24T01:03:02Z" finished-at="2019-09-24T01:03:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CallmonitoringForm status=SUCCESS method=StreamsUCC_Main_Script.CallmonitoringForm()[pri:5, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Endtestcase -->
-        <test-method status="PASS" signature="Loggedin_Logout_Agentes()[pri:6, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="Loggedin_Logout_Agentes" duration-ms="100620" started-at="2019-09-24T01:03:02Z" finished-at="2019-09-24T01:04:43Z">
+        <test-method status="SKIP" signature="Loggedin_Logout_Agentes()[pri:6, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@3fd7a715]" name="Loggedin_Logout_Agentes" duration-ms="0" started-at="2019-12-31T12:06:58Z" finished-at="2019-12-31T12:06:58Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.addArguments([Ljava/lang/String;)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at main_running_script_streams_ucc.StreamsUCC_Main_Script.beforeSuite(StreamsUCC_Main_Script.java:306)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Loggedin_Logout_Agentes -->
-        <test-method status="PASS" signature="Endtestcase(org.testng.ITestResult)[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="Endtestcase" is-config="true" duration-ms="3" started-at="2019-09-24T01:04:43Z" finished-at="2019-09-24T01:04:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Loggedin_Logout_Agentes status=SUCCESS method=StreamsUCC_Main_Script.Loggedin_Logout_Agentes()[pri:6, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Endtestcase -->
-        <test-method status="PASS" signature="kil()[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@7f13d6e]" name="kil" is-config="true" duration-ms="1358" started-at="2019-09-24T01:04:44Z" finished-at="2019-09-24T01:04:45Z">
+        <test-method status="SKIP" signature="kil()[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@3fd7a715]" name="kil" is-config="true" duration-ms="0" started-at="2019-12-31T12:06:58Z" finished-at="2019-12-31T12:06:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- kil -->

@@ -6,26 +6,24 @@
   <name>Streams_UCC</name>
   <description>Streams_UCC</description>
   <dependencies>
-  	<dependency>
-  		<groupId>org.seleniumhq.selenium</groupId>
-  		<artifactId>htmlunit-driver</artifactId>
-  		<version>2.24</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.seleniumhq.selenium</groupId>
-  		<artifactId>selenium-server</artifactId>
-  		<version>3.4.0</version>
-  	</dependency>
-  	 <dependency>
+  
+  	     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>3.13.0</version>
-    </dependency>  
-<!--   	<dependency> -->
-<!--   		<groupId>org.seleniumhq.selenium</groupId> -->
-<!--   		<artifactId>selenium-java</artifactId> -->
-<!--   		<version>3.4.0</version> -->
-<!--   	</dependency> -->
+        <version>3.141.59</version>
+    </dependency>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-server</artifactId>
+        <version>3.141.59</version>
+    </dependency>
+  <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-server</artifactId>
+        <version>3.141.59</version>
+    </dependency>
+ 
+  	
   	<dependency>
   		<groupId>org.testng</groupId>
   		<artifactId>testng</artifactId>
