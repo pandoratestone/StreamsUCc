@@ -43,13 +43,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import com.gargoylesoftware.htmlunit.javascript.host.InstallTrigger;
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 import main_running_script_streams_ucc.StreamsUCC_Main_Script;
-import net.sourceforge.htmlunit.corejs.javascript.ast.SwitchCase;
+
 import output_results.Extend_Reports;
 import output_results.Logs;
 import output_results.MyTest_Listner;
