@@ -1,0 +1,32 @@
+2019-09-24 00:58:46 INFO  Logs:50 - [Browser launch]: Deleted all the cookies & Launched Successfully
+
+2019-09-24 00:58:46 INFO  Logs:50 - [Login URL]:https://gostreams.beta-wspbx.com
+
+2019-09-24 00:59:23 INFO  Logs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2019-09-24 00:59:23 INFO  Logs:41 - XXXXXXXXXXXXXXXXXXXXXXX   ULmLogin  XXXXXXXXXX Ended Test case XXXXXXXXXXXXX
+2019-09-24 00:59:23 INFO  Logs:50 - Tottal Number of Test cases ==0 No.of Test cases Pass==0 No.Of Test cases Faile Count==0
+
+2019-09-24 01:00:17 INFO  Logs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2019-09-24 01:00:17 INFO  Logs:41 - XXXXXXXXXXXXXXXXXXXXXXX   ULM_Queues  XXXXXXXXXX Ended Test case XXXXXXXXXXXXX
+2019-09-24 01:00:17 INFO  Logs:50 - Tottal Number of Test cases ==0 No.of Test cases Pass==0 No.Of Test cases Faile Count==0
+
+2019-09-24 01:01:15 INFO  Logs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2019-09-24 01:01:15 INFO  Logs:41 - XXXXXXXXXXXXXXXXXXXXXXX   ULM_Hide_Filters  XXXXXXXXXX Ended Test case XXXXXXXXXXXXX
+2019-09-24 01:01:15 INFO  Logs:50 - Tottal Number of Test cases ==0 No.of Test cases Pass==0 No.Of Test cases Faile Count==0
+
+2019-09-24 01:02:09 INFO  Logs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2019-09-24 01:02:09 INFO  Logs:41 - XXXXXXXXXXXXXXXXXXXXXXX   ULM_Show_Filters  XXXXXXXXXX Ended Test case XXXXXXXXXXXXX
+2019-09-24 01:02:09 INFO  Logs:50 - Tottal Number of Test cases ==0 No.of Test cases Pass==0 No.Of Test cases Faile Count==0
+
+2019-09-24 01:03:02 INFO  Logs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2019-09-24 01:03:02 INFO  Logs:41 - XXXXXXXXXXXXXXXXXXXXXXX   CallmonitoringForm  XXXXXXXXXX Ended Test case XXXXXXXXXXXXX
+2019-09-24 01:03:02 INFO  Logs:50 - Tottal Number of Test cases ==0 No.of Test cases Pass==0 No.Of Test cases Faile Count==0
+
+2019-09-24 01:04:43 INFO  Logs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2019-09-24 01:04:43 INFO  Logs:41 - XXXXXXXXXXXXXXXXXXXXXXX   Loggedin_Logout_Agentes  XXXXXXXXXX Ended Test case XXXXXXXXXXXXX
+2019-09-24 01:04:43 INFO  Logs:50 - Tottal Number of Test cases ==0 No.of Test cases Pass==0 No.Of Test cases Faile Count==0
+
+2019-09-24 01:04:45 INFO  Logs:50 - ************************* Scripts Ended time is : 100.0**********************************
+
+2019-09-24 01:04:45 INFO  Logs:50 - [Task kill]... driver kill done
+

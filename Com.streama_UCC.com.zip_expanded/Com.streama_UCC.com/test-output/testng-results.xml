@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="13" total="14" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity" duration-ms="49564" started-at="2019-03-26T22:54:01Z" finished-at="2019-03-26T22:54:50Z">
+    <groups>
+    </groups>
+    <test name="Stresams UCC" duration-ms="49564" started-at="2019-03-26T22:54:01Z" finished-at="2019-03-26T22:54:50Z">
+      <class name="main_running_script_streams_ucc.StreamsUCC_Main_Script">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@eec5a4a]" name="beforeSuite" is-config="true" duration-ms="14934" started-at="2019-03-27T04:23:46Z" finished-at="2019-03-27T04:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="login_streams()[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@eec5a4a]" name="login_streams" duration-ms="48883" started-at="2019-03-27T04:24:01Z" finished-at="2019-03-27T04:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_streams -->
+        <test-method status="PASS" signature="Endtestcase(org.testng.ITestResult)[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@eec5a4a]" name="Endtestcase" is-config="true" duration-ms="3" started-at="2019-03-27T04:24:50Z" finished-at="2019-03-27T04:24:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_streams status=SUCCESS method=StreamsUCC_Main_Script.login_streams()[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@eec5a4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Endtestcase -->
+        <test-method status="PASS" signature="kil()[pri:0, instance:main_running_script_streams_ucc.StreamsUCC_Main_Script@eec5a4a]" name="kil" is-config="true" duration-ms="1941" started-at="2019-03-27T04:24:51Z" finished-at="2019-03-27T04:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kil -->
+      </class> <!-- main_running_script_streams_ucc.StreamsUCC_Main_Script -->
+    </test> <!-- Stresams UCC -->
+  </suite> <!-- Sanity -->
+</testng-results>

@@ -1,0 +1,78 @@
+2019-03-27 04:24:08 INFO  Logs:30 - $$$$$$$$$$$$$$$$$$$$$                 Valid userName       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-03-27 04:24:08 INFO  Logs:32 - ****************************************************************************************
+2019-03-27 04:24:08 INFO  Logs:50 - [Current Cell Count]--4
+
+2019-03-27 04:24:08 INFO  Logs:50 - [Login test Actions are Started] Started .... *login_all
+
+2019-03-27 04:24:08 INFO  Logs:50 - [Streams Login started] here username :pavanone@iosclient and password is :abc@1234
+
+2019-03-27 04:24:08 INFO  Logs:50 - [Login]... Started .........pavanone@iosclient
+
+2019-03-27 04:24:08 INFO  Logs:50 - [Login]... page url is .........:https://accounts.beta-wspbx.com/auth/index.jsp?dashboardid=302922967&src=gostreams.beta-wspbx.com&svid=1
+
+2019-03-27 04:24:08 INFO  Logs:50 - [Login].. Login page is displayed hence login user :
+
+2019-03-27 04:24:08 INFO  Logs:50 - [Login].. Login page displayed
+
+2019-03-27 04:24:08 INFO  Logs:50 - [EnterUsreNamePassword].. Started Useridpavanone@iosclient
+
+2019-03-27 04:24:42 INFO  Logs:50 - [EnterUsreNamePassword] Ended..
+
+2019-03-27 04:24:42 INFO  Logs:50 - [Login]..Ended..  Clicked on sign in button..
+
+2019-03-27 04:24:42 INFO  Logs:50 - [Login].. entered crediantilas username is :pavanone@iosclient and password is :abc@1234
+
+2019-03-27 04:24:43 INFO  Logs:50 - [Recents loading wait] Started.. *recentssearchbarwait
+
+2019-03-27 04:24:45 INFO  Logs:50 - [Recents loading wait] Search bar displayed in Contacts tab
+
+2019-03-27 04:24:45 INFO  Logs:50 - [Recents loading wait] Ended....recentssearchbarwait() Portal url is :https://gostreams.beta-wspbx.com/sloader/home.jsp
+
+2019-03-27 04:24:45 INFO  Logs:50 - [CurrentLoginUser] Started....
+
+2019-03-27 04:24:45 INFO  Logs:50 - [GetAttributeFromLocator].Element is:[[ChromeDriver: chrome on XP (e75b8148dd60ffbbf0bf4deac13a8797)] -> xpath: //span[@id='main_user_img']/img] and Attribute is :name
+
+2019-03-27 04:24:45 INFO  Logs:50 - [CurrentLoggedin_User].. Attribute is :profilepic_pavanone@iosclient
+
+2019-03-27 04:24:45 INFO  Logs:50 - [CurrentLoginUser] ended ... user is :pavanone@iosclient
+
+2019-03-27 04:24:45 INFO  Logs:50 - [Recents loading wait] Ended and CurrentLoggedinUser:pavanone@iosclient and user login Status is:
+
+2019-03-27 04:24:45 INFO  Logs:50 - [User Status ] Started.contacts_status
+
+2019-03-27 04:24:45 INFO  Logs:50 - [CurrentLoginUser] Started....
+
+2019-03-27 04:24:45 INFO  Logs:50 - [GetAttributeFromLocator].Element is:[[ChromeDriver: chrome on XP (e75b8148dd60ffbbf0bf4deac13a8797)] -> xpath: //span[@id='main_user_img']/img] and Attribute is :name
+
+2019-03-27 04:24:45 INFO  Logs:50 - [CurrentLoggedin_User].. Attribute is :profilepic_pavanone@iosclient
+
+2019-03-27 04:24:45 INFO  Logs:50 - [CurrentLoginUser] ended ... user is :pavanone@iosclient
+
+2019-03-27 04:24:45 INFO  Logs:50 - [Currect Loggedin user Validation] Done Super..
+
+2019-03-27 04:24:47 INFO  Logs:50 - [GetTextWait]..Started & Element is :[[ChromeDriver: chrome on XP (e75b8148dd60ffbbf0bf4deac13a8797)] -> xpath: //div[@id='status_b4fa6aa68ad111e6b48f001e58a7db4a_pavanone@iosclient']]
+
+2019-03-27 04:24:47 INFO  Logs:50 - [Staus]....Offline
+
+2019-03-27 04:24:47 INFO  Logs:50 - [GetTextWait]..Started & Element is :[[ChromeDriver: chrome on XP (e75b8148dd60ffbbf0bf4deac13a8797)] -> xpath: //div[@id='status_b4fa6aa68ad111e6b48f001e58a7db4a_pavanone@iosclient']]
+
+2019-03-27 04:24:47 INFO  Logs:50 - [ByElementIS]..id is :By.id: status_b4fa6aa68ad111e6b48f001e58a7db4a_pavanone@iosclient
+
+2019-03-27 04:24:49 INFO  Logs:50 - [GetTextToBe] returning bool value is :true
+
+2019-03-27 04:24:49 INFO  Logs:50 - [User Status ]--- bool value is :true
+
+2019-03-27 04:24:49 INFO  Logs:50 - [User Status ] Ended.....
+
+2019-03-27 04:24:49 INFO  Logs:50 - user logged in success fully with username:pavanone@iosclient
+
+2019-03-27 04:24:49 INFO  Logs:50 - [Login test Actions are Ended]: Ended all_scripts.Login_testcase
+
+2019-03-27 04:24:50 INFO  Logs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2019-03-27 04:24:50 INFO  Logs:41 - XXXXXXXXXXXXXXXXXXXXXXX   login_streams  XXXXXXXXXX Ended Test case XXXXXXXXXXXXX
+2019-03-27 04:24:50 INFO  Logs:50 - Tottal Number of Test cases ==4 No.of Test cases Pass==4 No.Of Test cases Faile Count==0
+
+2019-03-27 04:24:53 INFO  Logs:50 - ************************* Scripts Ended time is : 0.0**********************************
+
+2019-03-27 04:24:53 INFO  Logs:50 - [Task kill]... driver kill done
+

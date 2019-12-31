@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/apache-maven-3.5.0-bin.zip"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/chromedriver_win32.zip"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/client-combined-3.2.0-nodeps.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/extentreports-2.40.2.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/extentreports-java-2.41.2.zip"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/extentreports-java-3.0.6.zip"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/jar_files.zip"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/java-client-4.1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/javax.mail-api-1.5.5.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/javax.mail-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/jxl-2.6.12.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/log4j-1.2.17.zip"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0.zip"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-server-standalone-3.4.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-server-standalone-3.12.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-support-2.9.0.jar.zip"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/testng-6.11.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/poi-3.16/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/poi-3.16/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/poi-3.16/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/poi-3.16/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/poi-3.16/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/poi-3.16/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/poi-3.16/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/poi-3.16/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/poi-3.16/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/poi-3.16/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/poi-3.16/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/client-combined-3.2.0-nodeps.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/cssparser-0.9.21.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/guava-21.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/htmlunit-2.24.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/htmlunit-core-js-2.23.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/htmlunit-driver-2.24.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/jetty-io-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/jetty-util-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/neko-htmlunit-2.24.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/phantomjsdriver-1.4.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/websocket-api-9.2.20.v20161216.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/websocket-client-9.2.20.v20161216.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/websocket-common-9.2.20.v20161216.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Jar_Drivers/selenium-java-3.2.0/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

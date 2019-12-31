@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity]">
+  <parameter name="enable" value="true"/>
+  <parameter name="Network" value="beta"/>
+  <parameter name="browser" value="GC"/>
+  <listeners>
+    <listener class-name="output_results.MyTest_Listner"/>
+  </listeners>
+  <test name="Stresams UCC(failed)">
+    <classes>
+      <class name="main_running_script_streams_ucc.StreamsUCC_Main_Script">
+        <methods>
+          <include name="CallmonitoringForm"/>
+          <include name="ULM_Show_Filters"/>
+          <include name="ULM_Queues"/>
+          <include name="beforeSuite"/>
+          <include name="kil"/>
+          <include name="ULmLogin"/>
+          <include name="Endtestcase"/>
+          <include name="Loggedin_Logout_Agentes"/>
+          <include name="ULM_Hide_Filters"/>
+        </methods>
+      </class> <!-- main_running_script_streams_ucc.StreamsUCC_Main_Script -->
+    </classes>
+  </test> <!-- Stresams UCC(failed) -->
+</suite> <!-- Failed suite [Sanity] -->

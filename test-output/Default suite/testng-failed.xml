@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="main_running_script_streams_ucc.StreamsUCC_Main_Script">
+        <methods>
+          <include name="Audiofile_validations"/>
+          <include name="Photo_Attachment_validation"/>
+          <include name="ULM_Show_Filters"/>
+          <include name="StatusValidation"/>
+          <include name="beforeSuite"/>
+          <include name="kil"/>
+          <include name="Message_validations"/>
+          <include name="team_Creation"/>
+          <include name="Collegeof_photos_validatoions"/>
+          <include name="login_streams"/>
+          <include name="OwnerActions"/>
+          <include name="Textfile_Validations"/>
+          <include name="IndependentULM_QuorumTechBranding"/>
+          <include name="Endtestcase"/>
+          <include name="CallmonitoringForm"/>
+          <include name="IndepedentULM_InpacketBrandings"/>
+          <include name="ReceiverActions"/>
+          <include name="ULM_Queues"/>
+          <include name="IndepedentULM_StreamsBrandings"/>
+          <include name="ULmLogin"/>
+          <include name="IndependentULM_KonnectBranding"/>
+          <include name="Loggedin_Logout_Agentes"/>
+          <include name="ULM_Hide_Filters"/>
+        </methods>
+      </class> <!-- main_running_script_streams_ucc.StreamsUCC_Main_Script -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
